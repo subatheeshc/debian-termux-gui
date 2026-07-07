@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo "=== Debian Termux GUI Setup v2 ==="
+echo "=== Debian Termux GUI Setup v3 ==="
 
 echo "[1/6] Updating Termux..."
 pkg update -y
@@ -15,13 +15,9 @@ if [ -z "$USERNAME" ]; then
     USERNAME="linuxuser"
 fi
 
-echo "Using user: $USERNAME"
+echo "Using Debian user: $USERNAME"
 
 echo "[3/6] Installing Debian..."
-
-if proot-distro list | grep -q "debian"; then
-    echo "Debian is available"
-fi
 
 if [ ! -d "$PREFIX/var/lib/proot-distro/installed-rootfs/debian" ]; then
     proot-distro install debian
@@ -40,7 +36,9 @@ if ! id $USERNAME >/dev/null 2>&1; then
     useradd -m -s /bin/bash $USERNAME
 fi
 
-echo '$USERNAME ALL=(ALL:ALL) ALL' > /etc/sudoers.d/$USERNAME
+usermod -aG sudo $USERNAME
+
+echo \"$USERNAME ALL=(ALL:ALL) ALL\" > /etc/sudoers.d/$USERNAME
 chmod 440 /etc/sudoers.d/$USERNAME
 "
 
@@ -55,11 +53,16 @@ if [ -d "./scripts" ]; then
 fi
 
 
-echo "[6/6] Complete"
+echo "[6/6] Setup completed"
 
 echo ""
-echo "Login:"
+echo "Debian login:"
 echo "proot-distro login debian --user $USERNAME"
+
 echo ""
-echo "GUI:"
+echo "GUI launcher:"
 echo "~/debian-termux-gui/scripts/start-debian-gui.sh"
+
+echo ""
+echo "Root login:"
+echo "proot-distro login debian --user root"
