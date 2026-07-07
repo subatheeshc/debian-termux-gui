@@ -14,7 +14,7 @@ Root terminal:
 ./scripts/debian-root.sh
 
 User terminal:
-./scripts/debian-suba.sh
+./scripts/debian-user.sh
 
 ## Features
 
