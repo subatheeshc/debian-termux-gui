@@ -22,9 +22,12 @@ proot-distro login debian -- bash -c "
 apt install -y \
     xfce4 \
     xfce4-goodies \
+    dbus-x11 \
+    dbus-user-session \
     mousepad \
     thunar \
-    xarchiver
+    xarchiver \
+    nmap
 
 "
 
