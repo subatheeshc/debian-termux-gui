@@ -24,6 +24,10 @@ echo "[STEP] Creating Debian user..."
 
 bash "$SCRIPT_DIR/create-user.sh"
 echo
+echo "[STEP] Configuring sudo access..."
+
+bash "$SCRIPT_DIR/sudo-setup.sh"
+echo
 echo "[STEP] Installing XFCE Desktop..."
 
 bash "$SCRIPT_DIR/xfce-setup.sh"
