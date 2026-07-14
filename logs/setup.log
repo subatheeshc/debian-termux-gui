@@ -1,0 +1,339 @@
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+ Stable Release
+============================================
+[0m
+
+Project : debian-termux-gui
+Location: /data/data/com.termux/files/home/debian-termux-gui
+
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+
+[1;32m============================================[0m
+[1;32m Debian Termux GUI v4.0.0[0m
+[1;32m Foundation Setup Completed[0m
+[1;32m============================================[0m
+
+Next modules will add:
+- Professional installer menu
+- Minimal / Full installation
+- Debian deployment
+- XFCE Desktop setup
+- Firefox ESR
+- TigerVNC
+- Verification system
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+ Stable Release
+============================================
+[0m
+
+Project : debian-termux-gui
+Location: /data/data/com.termux/files/home/debian-termux-gui
+
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+
+[1;32m============================================[0m
+[1;32m Debian Termux GUI v4.0.0[0m
+[1;32m Foundation Setup Completed[0m
+[1;32m============================================[0m
+
+Next modules will add:
+- Professional installer menu
+- Minimal / Full installation
+- Debian deployment
+- XFCE Desktop setup
+- Firefox ESR
+- TigerVNC
+- Verification system
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+============================================
+[0m
+
+1) Minimal Installation
+2) Full Installation
+3) Verify Installation
+4) Repair / Fix
+5) Exit
+
+Select option: Exiting installer...
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+ Stable Release
+============================================
+[0m
+
+Project : debian-termux-gui
+Location: /data/data/com.termux/files/home/debian-termux-gui
+
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+
+[1;32m============================================[0m
+[1;32m Debian Termux GUI v4.0.0[0m
+[1;32m Foundation Setup Completed[0m
+[1;32m============================================[0m
+
+Next modules will add:
+- Professional installer menu
+- Minimal / Full installation
+- Debian deployment
+- XFCE Desktop setup
+- Firefox ESR
+- TigerVNC
+- Verification system
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+============================================
+[0m
+
+1) Minimal Installation
+2) Full Installation
+3) Verify Installation
+4) Repair / Fix
+5) Exit
+
+Select option: [1;32m[START][0m Launching Minimal Installation...
+============================================
+ Minimal Installation
+============================================
+
+[INFO] Minimal installation started...
+
+[OK] Minimal installation module ready.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+ Stable Release
+============================================
+[0m
+
+Project : debian-termux-gui
+Location: /data/data/com.termux/files/home/debian-termux-gui
+
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+
+[1;32m============================================[0m
+[1;32m Debian Termux GUI v4.0.0[0m
+[1;32m Foundation Setup Completed[0m
+[1;32m============================================[0m
+
+Next modules will add:
+- Professional installer menu
+- Minimal / Full installation
+- Debian deployment
+- XFCE Desktop setup
+- Firefox ESR
+- TigerVNC
+- Verification system
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+============================================
+[0m
+
+1) Minimal Installation
+2) Full Installation
+3) Verify Installation
+4) Repair / Fix
+5) Exit
+
+Select option: [1;32m[START][0m Launching Full Installation...
+============================================
+ Full Installation
+============================================
+
+[INFO] Full installation started...
+
+[OK] Full installation module ready.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+ Stable Release
+============================================
+[0m
+
+Project : debian-termux-gui
+Location: /data/data/com.termux/files/home/debian-termux-gui
+
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+
+[1;32m============================================[0m
+[1;32m Debian Termux GUI v4.0.0[0m
+[1;32m Foundation Setup Completed[0m
+[1;32m============================================[0m
+
+Next modules will add:
+- Professional installer menu
+- Minimal / Full installation
+- Debian deployment
+- XFCE Desktop setup
+- Firefox ESR
+- TigerVNC
+- Verification system
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+============================================
+[0m
+
+1) Minimal Installation
+2) Full Installation
+3) Verify Installation
+4) Repair / Fix
+5) Exit
+
+Select option: [1;32m[START][0m Launching Verification...
+============================================
+ Installation Verification
+============================================
+
+[CHECK] Checking installation status...
+
+[OK] Verification module ready.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+ Stable Release
+============================================
+[0m
+
+Project : debian-termux-gui
+Location: /data/data/com.termux/files/home/debian-termux-gui
+
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+
+[1;32m============================================[0m
+[1;32m Debian Termux GUI v4.0.0[0m
+[1;32m Foundation Setup Completed[0m
+[1;32m============================================[0m
+
+Next modules will add:
+- Professional installer menu
+- Minimal / Full installation
+- Debian deployment
+- XFCE Desktop setup
+- Firefox ESR
+- TigerVNC
+- Verification system
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+============================================
+[0m
+
+1) Minimal Installation
+2) Full Installation
+3) Verify Installation
+4) Repair / Fix
+5) Exit
+
+Select option: [1;32m[START][0m Launching Repair Module...
+============================================
+ Repair / Fix Module
+============================================
+
+[INFO] Repair mode started...
+
+[OK] Repair module ready.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+ Stable Release
+============================================
+[0m
+
+Project : debian-termux-gui
+Location: /data/data/com.termux/files/home/debian-termux-gui
+
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+
+[1;32m============================================[0m
+[1;32m Debian Termux GUI v4.0.0[0m
+[1;32m Foundation Setup Completed[0m
+[1;32m============================================[0m
+
+Next modules will add:
+- Professional installer menu
+- Minimal / Full installation
+- Debian deployment
+- XFCE Desktop setup
+- Firefox ESR
+- TigerVNC
+- Verification system
+[1;33m[CHECK][0m Checking Termux environment...
+[1;32m[OK][0m Environment ready.
+[1;33m[SETUP][0m Creating directories...
+[1;32m[OK][0m Directory structure created.
+[1;32m[INFO][0m Existing configuration found.
+[H[2J[3J[1;34m
+============================================
+ Debian Termux GUI Installer v4.0.0
+============================================
+[0m
+
+1) Minimal Installation
+2) Full Installation
+3) Verify Installation
+4) Repair / Fix
+5) Exit
+
+Select option: Exiting installer...

@@ -1,13 +1,26 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-echo "Stopping Debian GUI..."
+# ============================================
+# Debian Termux GUI
+# Stop Debian GUI (Termux:X11)
+# ============================================
 
-pkill -f xfce4-session
-pkill -f startxfce4
-pkill -f dbus-launch
+set -e
 
-echo "Stopping Termux:X11..."
+echo "============================================"
+echo " Stopping Debian GUI"
+echo "============================================"
 
-pkill -f "termux-x11 :0"
+echo
 
-echo "Done."
+echo "[STEP] Stopping XFCE..."
+
+pkill -f xfce4-session >/dev/null 2>&1 || true
+pkill -f startxfce4 >/dev/null 2>&1 || true
+
+echo "[STEP] Stopping Termux:X11..."
+
+pkill -f "termux-x11" >/dev/null 2>&1 || true
+
+echo
+echo "[OK] Debian GUI stopped."
