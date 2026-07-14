@@ -1,5 +1,16 @@
 # Debian Termux GUI
 
+![GitHub release](https://img.shields.io/github/v/release/subatheeshc/debian-termux-gui)
+![GitHub license](https://img.shields.io/github/license/subatheeshc/debian-termux-gui)
+![GitHub stars](https://img.shields.io/github/stars/subatheeshc/debian-termux-gui)
+![Platform](https://img.shields.io/badge/platform-Android-green)
+![Desktop](https://img.shields.io/badge/Desktop-XFCE-blue)
+
+Run Debian Linux with XFCE Desktop Environment inside Termux with GUI support.
+
+---
+# Debian Termux GUI
+
 A modular automation project to install and run a complete **Debian Linux XFCE Desktop Environment** on Android using **Termux**, **PRoot-Distro**, and **Termux:X11**.
 
 Debian Termux GUI makes it easy to create a Linux desktop environment on Android with automated installation scripts, user management, desktop configuration, and GUI launcher tools.
