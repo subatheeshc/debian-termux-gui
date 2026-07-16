@@ -1,18 +1,37 @@
-#!/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 
-echo "[INFO] Installing sudo..."
+# ============================================
+# Debian Termux GUI
+# Sudo Setup Module
+# ============================================
 
-apt update
-apt install -y sudo
+set -e
 
-echo "[INFO] Configuring sudo access for Debian user..."
+CONFIG="$HOME/debian-termux-gui/config/user.conf"
 
-if [ -n "$DEBIAN_USER" ]; then
-    echo "$DEBIAN_USER ALL=(ALL:ALL) ALL" > /etc/sudoers.d/$DEBIAN_USER
-    chmod 440 /etc/sudoers.d/$DEBIAN_USER
-else
-    echo "DEBIAN_USER not found"
+if [ ! -f "$CONFIG" ]; then
+    echo "[ERROR] Config file not found."
     exit 1
 fi
 
-echo "[OK] Sudo setup completed for $DEBIAN_USER"
+source "$CONFIG"
+
+echo "============================================"
+echo " Sudo Setup"
+echo "============================================"
+echo
+if [ -z "$DEBIAN_USER" ]; then
+    echo "[ERROR] DEBIAN_USER is not configured."
+    exit 1
+fi
+
+echo "[INFO] Configuring sudo for $DEBIAN_USER..."
+
+proot-distro login debian -- bash -c "
+apt update
+apt install -y sudo
+
+usermod -aG sudo $DEBIAN_USER
+"
+echo
+echo "[OK] Sudo setup completed."
